@@ -9,7 +9,7 @@ use super::RunFonts;
 #[derive(Debug, Clone, PartialEq, Serialize)]
 #[serde(rename_all = "camelCase")]
 pub struct DocDefaults {
-    run_property_default: RunPropertyDefault,
+    pub run_property_default: RunPropertyDefault,
 }
 
 impl DocDefaults {
